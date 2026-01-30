@@ -49,8 +49,7 @@ const Navbar: React.FC = () => {
             {/* LOGO: Aquí puedes cambiar el tamaño en w-10 h-10 (móvil) y md:w-12 md:h-12 (desktop) */}
             <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
               <img
-                src="../img/logo_ms.png" 
-                alt="Logo Dental MS"
+                src="../img/logo_ms.png"
                 className="w-full h-full rounded-full bg-white object-contain p-1 border border-slate-100 shadow-sm"
               />
             </div>
