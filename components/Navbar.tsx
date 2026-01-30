@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
             {/* LOGO: Aquí puedes cambiar el tamaño en w-10 h-10 (móvil) y md:w-12 md:h-12 (desktop) */}
-            <div className="relative w-10 h-10 md:w-15 md:h-15 flex-shrink-0">
+            <div className="relative w-10 h-10 md:w-8 md:h-8 flex-shrink-0">
               <img
                 src="/logo_ms.png"
                 alt="Logo Dental MS"
