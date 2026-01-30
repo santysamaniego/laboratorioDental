@@ -1,0 +1,7 @@
+{
+  "name": "Dental MS Lab - Laboratorio de Prótesis Dentales",
+  "description": "Sitio web profesional para Dental MS Lab, un laboratorio dental especializado en prótesis de alta calidad ubicado en San Justo.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
