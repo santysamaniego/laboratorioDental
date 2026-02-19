@@ -11,7 +11,7 @@ export interface Project {
   id: string;
   title: string;
   category: string;
-  image: string;
+  images: string[];
 }
 
 export interface Review {
@@ -24,6 +24,8 @@ export interface Review {
 export interface SocialLinks {
   instagram: string;
   whatsapp: string;
+  facebook: string;
+  email: string;
   phone: string;
 }
 

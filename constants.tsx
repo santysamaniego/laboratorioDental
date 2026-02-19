@@ -2,15 +2,17 @@
 import { Service, SocialLinks, LocationInfo, Project, Review } from './types';
 
 export const SOCIAL_LINKS: SocialLinks = {
-  instagram: "https://www.instagram.com/dentalmslab",
+  instagram: "https://www.instagram.com/ms.laboratoriodental",
+  facebook: "https://www.facebook.com/cesar.jimenez.590710",
+  email: "ms.laboratoriointegral@gmail.com",
   whatsapp: "https://wa.me/5491165729989",
-  phone: "116572-9989"
+  phone: "11 6572-9989"
 };
 
 export const LOCATION: LocationInfo = {
-  address: "San Justo",
-  city: "Buenos Aires, Argentina",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52486.28014819717!2d-58.59103848419741!3d-34.68533177893155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc63297a7e375%3A0x6a0562e15264b38d!2sSan%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
+  address: "San Justo, La Matanza",
+  city: "Buenos Aires",
+  mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13123.630560205835!2d-58.57508493022461!3d-34.68533177893155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
 };
 
 export const SERVICES: Service[] = [
@@ -36,9 +38,9 @@ export const SERVICES: Service[] = [
     features: ['Precisión micrométrica', 'Baja conductividad', 'Ligereza']
   },
   {
-    id: 'provisorias',
-    title: 'Coronas Provisorias',
-    description: 'Soluciones temporales estéticas y funcionales durante el proceso de tratamiento.',
+    id: 'coronas-acrilico',
+    title: 'Coronas de Acrílico',
+    description: 'Soluciones estéticas y funcionales durante el proceso de tratamiento.',
     image: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&q=80&w=800',
     features: ['Rápida entrega', 'Estética inmediata', 'Protección pulpar']
   },
@@ -48,23 +50,15 @@ export const SERVICES: Service[] = [
     description: 'Protección dental personalizada para pacientes con parafunción mandibular.',
     image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800',
     features: ['Rígidas o Blandas', 'Desprogramación muscular', 'Alivio articular']
-  },
-  {
-    id: '3d-cromoflex',
-    title: '3D Cromoflex',
-    description: 'Tecnología de impresión 3D para prótesis con máxima precisión y personalización.',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800',
-    features: ['Flujo digital', 'Innovación 3D', 'Resultados consistentes']
   }
 ];
 
 export const PROJECTS: Project[] = [
-  { id: 'p1', title: 'Rehabilitación Superior', category: 'Flexibles', image: 'https://picsum.photos/seed/dent1/600/600' },
-  { id: 'p2', title: 'Cromo Cobalto Parcial', category: 'Metálicas', image: 'https://picsum.photos/seed/dent2/600/600' },
-  { id: 'p3', title: 'Placa de Descarga 4mm', category: 'Bruxismo', image: 'https://picsum.photos/seed/dent3/600/600' },
-  { id: 'p4', title: 'Puente Provisorio Anterior', category: 'Coronas', image: 'https://picsum.photos/seed/dent4/600/600' },
-  { id: 'p5', title: 'Prótesis Completa Sup.', category: 'Acrílicos', image: 'https://picsum.photos/seed/dent5/600/600' },
-  { id: 'p6', title: 'Diseño 3D Digital', category: 'Cromoflex', image: 'https://picsum.photos/seed/dent6/600/600' },
+  { id: 'p1', title: 'Rehabilitación Superior', category: 'Flexibles', images: ['https://picsum.photos/seed/dent1/800/800', 'https://picsum.photos/seed/dent1b/800/800'] },
+  { id: 'p2', title: 'Cromo Cobalto Parcial', category: 'Metálicas', images: ['https://picsum.photos/seed/dent2/800/800', 'https://picsum.photos/seed/dent2b/800/800'] },
+  { id: 'p3', title: 'Placa de Descarga 4mm', category: 'Bruxismo', images: ['https://picsum.photos/seed/dent3/800/800', 'https://picsum.photos/seed/dent3b/800/800'] },
+  { id: 'p4', title: 'Puente Acrílico Anterior', category: 'Coronas', images: ['https://picsum.photos/seed/dent4/800/800', 'https://picsum.photos/seed/dent4b/800/800'] },
+  { id: 'p5', title: 'Prótesis Completa Sup.', category: 'Acrílicos', images: ['https://picsum.photos/seed/dent5/800/800', 'https://picsum.photos/seed/dent5b/800/800'] }
 ];
 
 export const REVIEWS: Review[] = [
