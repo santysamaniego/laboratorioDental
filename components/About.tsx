@@ -11,7 +11,7 @@ const About: React.FC = () => {
             <div className="relative max-w-md mx-auto lg:max-w-none">
               <div className="absolute -inset-4 bg-blue-100 rounded-3xl -z-10 translate-x-4 translate-y-4"></div>
               <img
-                src="../public/cesarpuerta.png"
+                src="public/cesarpuerta.png"
                 alt="César Jiménez - Técnico Dental"
                 className="rounded-3xl shadow-xl z-10 relative object-cover aspect-square md:aspect-auto"
               />
