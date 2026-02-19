@@ -10,7 +10,7 @@ const ImageCarousel: React.FC<{ project: Project }> = ({ project }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIdx((prev) => (prev + 1) % project.images.length);
-    }, 3000);
+    }, 3000); // 3 seconds interval as requested
     return () => clearInterval(timer);
   }, [project.images.length]);
 
@@ -54,13 +54,13 @@ const ProjectsGallery: React.FC = () => {
   };
 
   return (
-    <section id="trabajos" className="py-20 bg-blue-50/30 relative overflow-hidden">
+    <section id="trabajos" className="py-20 bg-blue-50/40 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-16 text-center">
           <span className="text-blue-600 font-bold uppercase tracking-widest text-xs">Portafolio</span>
           <h2 className="text-3xl md:text-5xl font-bold font-outfit mt-4 leading-tight">Nuestros Trabajos</h2>
           <p className="text-slate-500 mt-4 max-w-xl mx-auto text-sm md:text-base">
-            Una selección de piezas realizadas en nuestro laboratorio.
+            Una selección de piezas realizadas en nuestro laboratorio con la máxima dedicación.
           </p>
         </div>
 
@@ -70,13 +70,13 @@ const ProjectsGallery: React.FC = () => {
             <div 
               key={project.id} 
               onClick={() => openModal(project)}
-              className="relative group overflow-hidden rounded-2xl md:rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 cursor-pointer border border-slate-200/50"
+              className="relative group overflow-hidden rounded-2xl md:rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 cursor-pointer border border-blue-100/30"
             >
               <ImageCarousel project={project} />
               
               <div className="absolute inset-0 bg-blue-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4 md:p-8">
                  <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                    <p className="text-[8px] md:text-[10px] font-black text-blue-300 uppercase tracking-widest mb-1 md:mb-2">{project.category}</p>
+                    <p className="text-[8px] md:text-[10px] font-black text-blue-200 uppercase tracking-widest mb-1 md:mb-2">{project.category}</p>
                     <h4 className="text-xs md:text-xl font-bold font-outfit text-white leading-tight">{project.title}</h4>
                     <div className="mt-2 md:mt-4 flex items-center text-white/70 text-[8px] md:text-[10px] font-bold uppercase tracking-widest">
                        <Maximize2 size={12} className="mr-1 md:mr-2" /> Ampliar
@@ -87,12 +87,12 @@ const ProjectsGallery: React.FC = () => {
           ))}
         </div>
 
-        {/* Testimonials - Card background slightly blue */}
+        {/* Testimonials - Card background slightly blue as requested */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
           {REVIEWS.map((review, idx) => (
             <div 
               key={review.id} 
-              className={`bg-blue-50/60 p-6 md:p-10 rounded-3xl md:rounded-[2.5rem] border border-blue-100 relative group hover:bg-white hover:shadow-xl transition-all duration-500 flex flex-col justify-between ${idx === 2 ? 'col-span-2 md:col-span-1' : ''}`}
+              className={`bg-blue-100/50 p-6 md:p-10 rounded-3xl md:rounded-[2.5rem] border border-blue-200 relative group hover:bg-white hover:shadow-xl transition-all duration-500 flex flex-col justify-between ${idx === 2 ? 'col-span-2 md:col-span-1' : ''}`}
             >
               <div>
                 <div className="bg-blue-600 text-white p-2 md:p-3 rounded-xl shadow-lg w-fit mb-6">
@@ -103,12 +103,12 @@ const ProjectsGallery: React.FC = () => {
                 </p>
               </div>
               <div className="flex items-center space-x-3 md:space-x-4">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-blue-200 text-blue-600 rounded-full flex items-center justify-center font-bold text-xs">
+                <div className="w-8 h-8 md:w-10 md:h-10 bg-blue-200 text-blue-700 rounded-full flex items-center justify-center font-bold text-xs shadow-inner">
                   {review.doctorName[0]}
                 </div>
                 <div>
                   <h5 className="font-bold text-slate-900 text-[10px] md:text-base leading-none">{review.doctorName}</h5>
-                  <p className="text-[8px] md:text-[10px] text-blue-600 uppercase tracking-widest font-bold mt-1">
+                  <p className="text-[8px] md:text-[10px] text-blue-600 uppercase tracking-widest font-black mt-1">
                     {review.doctorName.includes('Dra.') ? 'Odontóloga' : 'Odontólogo'}
                   </p>
                 </div>

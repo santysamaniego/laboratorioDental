@@ -98,27 +98,27 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu - Solid White Background for readability */}
+      {/* Mobile Menu - Font size reduced to text-base */}
       <div className={`md:hidden bg-white fixed top-0 left-0 w-full h-screen transition-transform duration-500 ease-in-out z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-4 flex justify-between items-center border-b">
-           <span className="font-bold text-blue-700">MS LABORATORIO DENTAL</span>
+           <span className="font-bold text-blue-700 text-sm">MS LABORATORIO DENTAL</span>
            <button onClick={() => setIsOpen(false)} className="p-2 text-slate-800"><X size={24} /></button>
         </div>
-        <div className="p-8 flex flex-col space-y-6 text-center">
+        <div className="p-8 flex flex-col space-y-5 text-center">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
               onClick={(e) => handleLinkClick(e, link.href)}
-              className="text-lg font-bold text-slate-800 hover:text-blue-600"
+              className="text-base font-bold text-slate-800 hover:text-blue-600 uppercase tracking-wide"
             >
               {link.name}
             </a>
           ))}
-          <div className="pt-8 flex flex-col space-y-4">
+          <div className="pt-6 flex flex-col space-y-4">
              <a
               href={SOCIAL_LINKS.whatsapp}
-              className="w-full bg-green-600 text-white py-4 rounded-xl font-bold text-sm"
+              className="w-full bg-green-600 text-white py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider"
             >
               Consultar Aranceles
             </a>
