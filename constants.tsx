@@ -27,7 +27,7 @@ export const SERVICES: Service[] = [
     id: 'flexibles',
     title: 'Prótesis Flexibles',
     description: 'Materiales plásticos de última generación que ofrecen flexibilidad y una estética inigualable.',
-    image: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800',
+    image: 'fleible_final_pagina.png',
     features: ['Libre de metal', 'Hipoalergénico', 'Alta resistencia']
   },
   {
