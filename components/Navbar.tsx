@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center space-x-3">
             <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
               <img
-                src="https://placehold.co/100x100/white/0047AB?text=MS" 
+                src="logo_sinlabden.png" 
                 alt="Logo MS Laboratorio"
                 className="w-full h-full rounded-full bg-white object-contain p-1 border border-slate-100 shadow-sm"
               />
