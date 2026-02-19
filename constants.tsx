@@ -34,7 +34,7 @@ export const SERVICES: Service[] = [
     id: 'cromo',
     title: 'Cromo Cobalto',
     description: 'Estructuras metálicas de precisión para casos complejos que requieren soporte rígido.',
-    image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&q=80&w=800',
+    image: 'cromo_cobalto_pagina.png',
     features: ['Precisión micrométrica', 'Baja conductividad', 'Ligereza']
   },
   {
