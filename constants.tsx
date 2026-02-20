@@ -48,7 +48,7 @@ export const SERVICES: Service[] = [
     id: 'bruxismo',
     title: 'Placas de Bruxismo',
     description: 'Protección dental personalizada para pacientes con parafunción mandibular.',
-    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800',
+    image: 'placabruxismo_final.png',
     features: ['Rígidas o Blandas', 'Desprogramación muscular', 'Alivio articular']
   }
 ];
