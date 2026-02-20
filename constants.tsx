@@ -41,7 +41,7 @@ export const SERVICES: Service[] = [
     id: 'coronas-acrilico',
     title: 'Coronas de Acrílico',
     description: 'Soluciones estéticas y funcionales durante el proceso de tratamiento.',
-    image: 'coronas_acrilico_pagina.png',
+    image: 'corona_acrilico_pagina.png',
     features: ['Rápida entrega', 'Estética inmediata', 'Protección pulpar']
   },
   {
