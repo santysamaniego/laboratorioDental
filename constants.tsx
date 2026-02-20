@@ -20,7 +20,7 @@ export const SERVICES: Service[] = [
     id: 'removibles',
     title: 'Removibles & Acrílicos',
     description: 'Prótesis de alta durabilidad con ajustes precisos para el confort del paciente.',
-    image: 'https://images.unsplash.com/photo-1593054315229-873b889b9d33?auto=format&fit=crop&q=80&w=800',
+    image: 'dentadura_acrilico_remo_pagina.png',
     features: ['Acrílicos termocurados', 'Estética natural', 'Ajuste perfecto']
   },
   {
