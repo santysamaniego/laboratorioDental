@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
     <section id="inicio" className="relative min-h-[90vh] md:min-h-screen flex items-center pt-20 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=2000"
+          src="img_fondo_pagina.png"
           alt="Dental Lab Background"
           className="w-full h-full object-cover"
         />
