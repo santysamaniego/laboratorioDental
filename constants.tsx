@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   { id: 'p1', title: 'Rehabilitación Superior', category: 'Flexibles', images: ['https://picsum.photos/seed/dent1/800/800', 'https://picsum.photos/seed/dent1b/800/800'] },
   { id: 'p2', title: 'Cromo Cobalto Parcial', category: 'Metálicas', images: ['cromo_cobalto_paginatrabajo1.png', 'cromo_cobalto_pagina_trabajo2.png'] },
-  { id: 'p3', title: 'Placa de Descarga 4mm', category: 'Bruxismo', images: ['https://picsum.photos/seed/dent3/800/800', 'https://picsum.photos/seed/dent3b/800/800'] },
+  { id: 'p3', title: 'Placa de Descarga superior', category: 'Bruxismo', images: ['placabruxismo_trabajo_pagina1.png', 'placabruxismo_trabajo_pagina2.png'] },
   { id: 'p4', title: 'Puente Acrílico Anterior', category: 'Coronas', images: ['corona_trabajo_pagina1.png', 'corona_trabajo_pagina2.png'] },
   { id: 'p5', title: 'Prótesis Superior', category: 'Acrílicos', images: ['dentadura_acrilico_2_trabajo.png', 'acrilica_costado_pagina_trabajo.png'] }
 ];
