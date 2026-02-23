@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-base md:text-xl text-slate-200 mb-8 md:mb-10 leading-relaxed font-light">
-            Soluciones protéticas con precisión y calidad profesional. Formamos a los futuros técnicos mecánicos dentales.
+            Soluciones protéticas con precisión y calidad profesional. Formamos a los futuros técnicos dentales.
           </p>
           
           <div className="flex flex-col space-y-4">
