@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs">
           <p>© {new Date().getFullYear()} MS Laboratorio Dental. Dir. César Jiménez.</p>
           <div className="mt-6 md:mt-0 flex items-center space-x-4">
-             <span className="text-slate-800 uppercase tracking-widest font-black hidden sm:inline">Calidad Profesional • San Justo</span>
+             <span className="text-slate-800 uppercase tracking-widest font-black hidden sm:inline">Hecho por <a href="https://www.instagram.com/santy.samaniego/" className="color-blue">santy.samaniego</a></span>
              <button 
                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                className="bg-slate-900 text-white p-3 rounded-full hover:bg-blue-600 transition-colors"
